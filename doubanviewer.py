@@ -33,7 +33,7 @@ def parse_table(table):
         star = table.find('p',{'class':"pl"}).find('span')['class'][0]
         star = re.sub(r'\D','',star)
     except:
-        star = ''
+        star = '.'
     try:
         sup = table.find('p',{'class':"pl"}).find('span')['title']
     except:
@@ -41,7 +41,7 @@ def parse_table(table):
     table_data = [user_img, user_name.encode('utf-8'), user_link, user_place.encode('utf-8'), vcontent.encode('utf-8'), vtime.encode('utf-8'), star, sup.encode('utf-8')]
     return table_data
 
-
+#crawl review
 def review_crawl():
     urls = []
     for i in range(10):
