@@ -1,3 +1,3 @@
-password = '123456'
+password = 'xyssss'
 username = 'admin'
-key = 'bfebff1'
+key = 'adfefef'
