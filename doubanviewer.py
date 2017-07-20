@@ -48,7 +48,7 @@ def review_crawl():
         start = 20*i
         url = 'https://movie.douban.com/subject/26411410/collections?start={}'.format(start)
         urls.append(url)
-    rst = []
+    rst = list()
     for url in urls:
         print url
         try:
