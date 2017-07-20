@@ -1,3 +1,3 @@
 password = 'xyssss'
 username = 'admin'
-key = 'adfefef'
+key = '11111'
